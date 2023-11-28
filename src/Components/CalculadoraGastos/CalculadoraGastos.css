@@ -1,0 +1,80 @@
+
+
+.container {
+    background: linear-gradient(to bottom, #5E4AE3, #0099FF);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 300px; 
+    margin: 0 auto; 
+  }
+  
+  .container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .totals {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  
+  .receitas,
+  .despesas {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .receitas {
+    color: #2ecc71; 
+  }
+  
+  .despesas {
+    color: #e74c3c; 
+  }
+  
+ 
+  .total-label {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  .total-valor {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  
+  .Cadastro input,
+  .Cadastro select,
+  .Cadastro button {
+    margin: 8px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .Cadastro button {
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .Cadastro button:hover {
+    background: darkpurple;
+  }
+  
